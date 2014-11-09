@@ -1,0 +1,406 @@
+/*  Main Style */
+body{
+	background-color: #D9D1BC;
+	width:100%;
+}
+h1{
+	font-family: 'Goudy Bookletter 1911', serif;
+}
+h2{
+	font-family: 'Goudy Bookletter 1911', serif;
+    font-size: 20px;
+    color: #F0EBD8;
+}
+
+h3{
+	font-family: 'Goudy Bookletter 1911', serif;
+}
+p{
+	font-family: 'Galdeano', sans-serif;
+}
+/* Button Styles */
+
+button{
+	font-size: 1.4em;
+	background-color: #F0EBD8;
+	color: #182B47;
+	border-radius: 25px;
+	font-weight: bold;
+}
+
+/* Form Styles */
+
+
+
+input{
+    border-radius: 25px;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center; 
+}
+
+/* Nav Style */
+
+.top-bar {
+    background: #182B47;
+}
+
+.top-bar-section li a:not(.button) {
+    background: #182B47 !important; 
+     color: #D9D1BC !important; 
+
+}
+
+.top-bar-section li a:not(.button):hover {
+    background: #D9D1BC !important;
+     color: #182B47 !important;   
+}
+
+.top-bar-section ul li.active > a {
+    background: #D9D1BC !important;
+     color: #182B47 !important;   
+}
+
+.top-bar-section ul li.active > a:hover {
+    background: #D9D1BC !important; 
+    color: #182B47 !important;  
+}
+
+.name{
+	font-size: 30px;
+}
+/* Index.html Styles*/
+
+#searchsect{
+	width: 95%;
+    background:#182B47;
+    margin: 20px;
+    padding: 20px;
+    padding-bottom: 70px;
+    margin-bottom: 30px;
+    text-align: center;
+    border-radius: 25px;
+}
+
+#novel{
+    font-size: 3em;
+}
+#search{
+    width: 98%;
+    height: 30px;
+    border-radius: 25px;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center; 
+}
+#searchbtn{
+	width:45%;
+    border-radius: 20px;
+    font-size: 1.6em;
+}
+#newreleases{
+	width:80%;
+	background-color: #182B47;
+	color:#D9D1BC;
+	padding:20px;
+	padding-left: 30px;
+	margin: 20px;
+	border-radius: 25px;
+	position:relative;
+	left:60px;
+}
+
+#newreleases p{
+	text-align: center;
+	font-size: 0.9em;
+	margin-bottom:0px;
+	margin-right:15px;
+}
+#newreleases h2{
+	text-align: center;
+	font-size: 2em;
+	margin-bottom: 30px;
+	border-bottom: 1px solid #fff;
+}
+
+/* Login.html */
+
+#login{
+	background-color: #182B47;
+	width:90%;
+	padding:20px;
+	margin:20px;
+	border-radius: 25px;
+}
+
+#login input{
+	width:100%;
+    height:45px;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 25px;
+}
+
+#login label{
+	font-size:1.5em;
+	text-align: center;
+	color: #D9D1BC;
+}
+
+#login h2{
+	font-size: 2.5em;
+	text-align: center;
+	margin-bottom: 30px;
+	border-bottom: 1px solid #fff;
+}
+
+#login button{
+	font-size: 1.6em;
+	position:relative;
+	left:35%;
+	width: 35%;
+}
+
+.benefits{
+	background-color: #182B47;
+	width:90%;
+	padding:20px;
+	margin:20px;
+	border-radius: 25px;
+}
+
+.benefits h2{
+	text-align: center;
+	font-size: 2.5em;
+	border-bottom: 1px solid #fff;
+}
+
+.benefits li{
+	color:#D9D1BC;
+	position:relative;
+	left:15%;
+	font-size:1.3em;
+	width:85%;
+}
+
+.benefits button{
+	position: relative;
+	left: 35%;
+}
+
+/* Register.html Styles */
+
+#register{
+	background-color: #182B47;
+	width:90%;
+	padding:20px;
+	margin:20px;
+	border-radius: 25px;
+}
+
+#register input{
+	border-radius: 25px;
+    
+}
+
+#register input[type=checkbox] + label{
+	color:#D9D1BC;
+	font-size:1em;
+
+}
+#register label{
+	font-size:1.5em;
+	text-align: center;
+	color: #D9D1BC;
+}
+
+#register form{
+	color:#D9D1BC;
+	height:45px;
+	width:100%;
+}
+
+#register button{
+	width:35%;
+	position: relative;
+	left: 35%;
+}
+
+#register h2{
+	text-align: center;
+	font-size: 2em;
+	margin-bottom: 20px;
+}
+
+/* results.html styles */
+
+aside{
+	background-color: #182B47;
+	padding:20px;
+	margin:20px;
+	width:170px;
+	text-align: left;
+	color: #F0EBD8;
+	margin-top: 40px;
+	float:left;
+	position: relative;
+	left:-75%;
+	border-radius: 25px;
+}
+aside h1{
+	color:#F0EBD8;
+	border-bottom:1px solid #fff;
+}
+
+aside a{
+	color: #F0EBD8
+}
+aside a:hover{
+	color:#fff;
+}
+
+#results{
+	background-color:#182B47;
+	width:900px;
+	padding: 20px;
+	margin:10px;
+	float:right;
+	margin-top: 40px;
+	border-radius: 25px;
+}
+
+#results h2{
+	font-size: 2em;
+	text-align: center;
+	border-bottom:1px solid #fff;
+	margin-bottom: 20px;
+}
+
+.results{
+	margin-left: 350px;
+	text-align: center;
+}
+
+
+#results p{
+	text-align: center;
+}
+
+#results a{
+	color: #F0EBD8;
+}
+
+#results a:hover{
+	color:#fff;
+}
+
+
+/* Bookshelf Styles */
+
+#bookshelf{
+	background-color: #182B47;
+	padding:20px;
+	margin:10px;
+	text-align: center;
+	border-radius:25px;
+}
+#bookshelf h3{
+	color:#F0EBD8;
+	font-weight: bold;
+}
+
+#prev{
+	position:relative;
+	left:-25%;
+	width:18%;
+}
+
+#next{
+	position:relative;
+	left:25%;
+	width:18%;
+}
+
+#info{
+	background-color: #182B47;
+	padding:20px;
+	margin:10px;
+	border-radius:25px;
+	color:#F0EBD8 ;
+	width:50%;
+	text-align: center;
+	position:relative;
+	left:25%;
+	margin-top: 0;
+}
+
+#info h2{
+	font-size:2em;
+	border-bottom: 1px solid #fff;
+	margin-bottom: 10px;
+}
+
+#down{
+	width:45%;
+	text-align: center;
+	position: relative;
+	left:-35px;
+	margin-top: 20px;
+}
+
+#read{
+	width:30%;
+	position: relative;
+	left:35px;
+
+}
+
+/* Book Detail Page Styles */
+
+#detail{
+	background-color: #182B47;
+	padding:20px;
+	margin:10px;
+	border-radius:25px;
+	color:#F0EBD8;
+	text-align: center;
+	margin-bottom:20px;
+}
+#detail h1{
+	color:#F0EBD8
+}
+#format{
+	background-color: #182B47;
+	padding:20px;
+	margin:10px;
+	border-radius:25px;
+	color:#F0EBD8;
+	text-align: center;
+	margin-bottom: 50px;
+}
+
+#format h2{
+	font-size: 2em;
+}
+
+#format a{
+	color:#F0EBD8
+}
+
+#format a:hover{
+	color:#fff;
+}
+
+#recommended{
+	background-color: #182B47;
+	padding:20px;
+	margin:10px;
+	border-radius:25px;
+	color:#F0EBD8;
+}
+
+#recommended h2{
+	text-align: center;
+	font-size: 2em;
+}
